@@ -9,11 +9,8 @@ from autoCheckin import startAutoCheckin
 env_values = dotenv_values("./config/.env")
 
 def checkin():
-    if env_values['AUTO_RUN'] == False:
-        resultado = messagebox.askquestion("Lembrete!", "Realizar Checkin. Deseja executar o bot?")
-        if resultado == 'yes':
-            startAutoCheckin(env_values)
-    else:
+    resultado = messagebox.askquestion("Lembrete!", "Realizar Checkin. Deseja executar o bot?")
+    if resultado == 'yes':
         startAutoCheckin(env_values)
         
     time.sleep(5)
@@ -25,8 +22,7 @@ def timer():
     while True:
         timeNow = datetime.now().strftime("%H:%M")
         if timeNow == hr1 or timeNow == hr2 or timeNow == hr3:
-            if env_values['RUN']:
-                checkin()
+            checkin()
         else:
             time.sleep(10)
 
