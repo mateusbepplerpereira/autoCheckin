@@ -26,7 +26,4 @@ def timer():
         else:
             time.sleep(10)
 
-
 timer()
-
-# print("Teste")
