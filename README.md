@@ -12,10 +12,10 @@ git clone https://github.com/mateusbepplerpereira/autoCheckin.git
 
 ```
 
-### 2.Instalação do Python###
+### 2.Instalação do Python
 Para o seguinte projeto é nessessário a instalação do Python 3.12.2 ou superior; pode ser instalado no seguinte link [Instalação do Python](https://www.python.org/downloads/)
 
-### 3.Instalação das bibliotecas utilizadas pelo Python###
+### 3.Instalação das bibliotecas utilizadas pelo Python
 No terminal cole o seguinte comando:
 ```
 
@@ -23,4 +23,3 @@ pip install -r requirements.txt
 
 ```
 
-## 4.
