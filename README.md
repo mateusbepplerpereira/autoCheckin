@@ -12,10 +12,10 @@ git clone https://github.com/mateusbepplerpereira/autoCheckin.git
 
 ```
 
-### 2.Instalação do Python
+### 2. Instalação do Python
 Para o seguinte projeto é nessessário a instalação do Python 3.12.2 ou superior; pode ser instalado no seguinte link [Instalação do Python](https://www.python.org/downloads/)
 
-### 3.Instalação das bibliotecas utilizadas pelo Python
+### 3. Instalação das bibliotecas utilizadas pelo Python
 No terminal cole o seguinte comando:
 ```
 
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ```
 
-## 4.Configuração das variaveis de ambiente
+## 4. Configuração das variaveis de ambiente
 Abra o terminal na pasta raiz do projeto e cole este comando
 ```
 
@@ -39,7 +39,7 @@ Dentro do arquivo .env você encontrará a váriavel de ambiente "PASSWORD_ADALO
 #### ***SEGURANÇA DE DADOS**
 Todos os dados que você escrever no arquivo .env ficarão salvos apenas na sua máquina, **os dados desse documento não serão vazados ou disponibilizados em nenhum local**.
 
-## 5.Adicionar o atalho na pasta de inicialização do windowns
+## 5. Adicionar o atalho na pasta de inicialização do windowns
 Agora que o ambiente já está configurado, vamos adicionar o arquivo "autoCheckin - Atalho.lnk" dentro da pasta de arquivos de inicialização do windowns para que o bot seja executado toda vez ao ligar a máquina. Pressione **"WINDOWS" + "R"** e cole o seguinte comando:
 ```
 
@@ -48,5 +48,5 @@ Agora que o ambiente já está configurado, vamos adicionar o arquivo "autoCheck
 ```
 Após isso copie o arquivo "autoCheckin - Atalho.lnk" deste repositório no diretório aberto.
 
-##CONSLUSÃO
+## CONSLUSÃO
 Após seguir o passo a passo descrito neste documento, você já será capaz de rodar de forma automática o autoCheckin em seu computador. Caso você tenha complicações na instalação deste projeto ou caso trenha alguma ideia de implementação e complementação do projeto, entre em contato comigo! Segue o meu Slack: **mateus.pereira**.
