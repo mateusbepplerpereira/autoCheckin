@@ -23,4 +23,18 @@ pip install -r requirements.txt
 
 ```
 
-##4.
+##4.Configuração das variaveis de ambiente
+Abra o terminal na pasta raiz do projeto e cole este comando
+```
+
+cp config/.env.example config/.env
+
+```
+#### RUN
+Dentro do arquivo .env você encontrará a variavel de ambiente "RUN", essa váriavel controla o funcionamento do autoCheckin, caso você queira parar a execução do bot temporariamente deixe RUN="False", os valores permitidos são "True" e "False".
+#### EMAIL_ADALOVE
+Dentro do arquivo .env você encontrará a váriavel de ambiente "EMAIL_ADALOVE", você deve colocar o seu e-mail de acesso da Adalove.
+#### PASSWORD_ADALOVE
+Dentro do arquivo .env você encontrará a váriavel de ambiente "PASSWORD_ADALOVE", você deve colocar a sua senha do acesso da Adalove.
+#### **SEGURANÇA DE DADOS**
+Todos os dados que você escrever no arquivo .env ficarão salvos apenas na sua máquina, **os dados desse documento não serão vazados ou disponibilizados em nenhum local**.

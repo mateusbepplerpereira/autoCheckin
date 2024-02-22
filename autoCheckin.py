@@ -15,8 +15,8 @@ def startAutoCheckin(env):
 
     driver.get(url)
 
-    email = env['EMAIL']
-    password = env['PASSWORD']
+    email = env['EMAIL_ADALOVE']
+    password = env['PASSWORD_ADALOVE']
 
     emailInput = driver.find_element(By.XPATH, '//*[@id=":r5:"]')
     emailInput.send_keys(email)

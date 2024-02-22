@@ -12,7 +12,6 @@ def checkin():
     resultado = messagebox.askquestion("Lembrete!", "Realizar Checkin. Deseja executar o bot?")
     if resultado == 'yes':
         startAutoCheckin(env_values)
-        
     time.sleep(5)
 
 def timer():
@@ -20,10 +19,11 @@ def timer():
     hr2 = "09:50"
     hr3 = "15:50"
     while True:
-        timeNow = datetime.now().strftime("%H:%M")
-        if timeNow == hr1 or timeNow == hr2 or timeNow == hr3:
-            checkin()
-        else:
-            time.sleep(10)
+        if env_values['RUN'] == "True":
+            timeNow = datetime.now().strftime("%H:%M")
+            if timeNow == hr1 or timeNow == hr2 or timeNow == hr3:
+                checkin()
+            else:
+                time.sleep(10)
 
 timer()
