@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ```
 
-##4.Configuração das variaveis de ambiente
+## 4.Configuração das variaveis de ambiente
 Abra o terminal na pasta raiz do projeto e cole este comando
 ```
 
@@ -36,6 +36,6 @@ Dentro do arquivo .env você encontrará a variavel de ambiente "RUN", essa vár
 Dentro do arquivo .env você encontrará a váriavel de ambiente "EMAIL_ADALOVE", você deve colocar o seu e-mail de acesso da Adalove.
 #### PASSWORD_ADALOVE
 Dentro do arquivo .env você encontrará a váriavel de ambiente "PASSWORD_ADALOVE", você deve colocar a sua senha do acesso da Adalove.
-#### **SEGURANÇA DE DADOS**
+#### ***SEGURANÇA DE DADOS**
 Todos os dados que você escrever no arquivo .env ficarão salvos apenas na sua máquina, **os dados desse documento não serão vazados ou disponibilizados em nenhum local**.
 
