@@ -2,7 +2,7 @@
 
 O presente projeto não possui nenhum fim ílicito, o autoCheckin possui apenas a finalidade de ser um lembrete para que as pessoas não esqueçam de realizar o checkin, de tal forma que não será nessessário o uso de alarmes de sonoridade no meio dos periodos de estudo, além disso o autoCheckin possibilita que o checkin seja feito de forma automática em segundo plano, dessa forma economizando tempo que pode ser direcionado a outras tarefas, deixando claro que o checkin só consegue ser realizado dentro do campus, nessessitando que você esteja conectado em uma das redes do mesmo.
 
-## Guia de instalação##
+## Guia de instalação
 
 ### 1. Clonar o seguinte repositório
 O primeiro passo é clonar este repositório em sua máquina
@@ -39,3 +39,5 @@ Dentro do arquivo .env você encontrará a váriavel de ambiente "PASSWORD_ADALO
 #### ***SEGURANÇA DE DADOS**
 Todos os dados que você escrever no arquivo .env ficarão salvos apenas na sua máquina, **os dados desse documento não serão vazados ou disponibilizados em nenhum local**.
 
+## 5.Adicionar o atalho na pasta de inicialização do windowns
+Agora que o ambiente já está configurado, vamos adicionar o arquivo "autoCheckin - Atalho.lnk" dentro da pasta de arquivos de inicialização do windowns para que o bot seja executado toda vez ao ligar a máquina. 
