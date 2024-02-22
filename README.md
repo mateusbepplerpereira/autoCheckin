@@ -40,4 +40,13 @@ Dentro do arquivo .env você encontrará a váriavel de ambiente "PASSWORD_ADALO
 Todos os dados que você escrever no arquivo .env ficarão salvos apenas na sua máquina, **os dados desse documento não serão vazados ou disponibilizados em nenhum local**.
 
 ## 5.Adicionar o atalho na pasta de inicialização do windowns
-Agora que o ambiente já está configurado, vamos adicionar o arquivo "autoCheckin - Atalho.lnk" dentro da pasta de arquivos de inicialização do windowns para que o bot seja executado toda vez ao ligar a máquina. 
+Agora que o ambiente já está configurado, vamos adicionar o arquivo "autoCheckin - Atalho.lnk" dentro da pasta de arquivos de inicialização do windowns para que o bot seja executado toda vez ao ligar a máquina. Pressione **"WINDOWS" + "R"** e cole o seguinte comando:
+```
+
+%appdata%\Microsoft\windows\start menu\programs\startup
+
+```
+Após isso copie o arquivo "autoCheckin - Atalho.lnk" deste repositório no diretório aberto.
+
+##CONSLUSÃO
+Após seguir o passo a passo descrito neste documento, você já será capaz de rodar de forma automática o autoCheckin em seu computador. Caso você tenha complicações na instalação deste projeto ou caso trenha alguma ideia de implementação e complementação do projeto, entre em contato comigo! Segue o meu Slack: **mateus.pereira**.
