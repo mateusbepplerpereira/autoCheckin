@@ -50,6 +50,3 @@ Após isso copie o arquivo "autoCheckin - Atalho.lnk" deste repositório no dire
 
 ## CONSLUSÃO
 Após seguir o passo a passo descrito neste documento, você já será capaz de rodar de forma automática o autoCheckin em seu computador. Caso você tenha complicações na instalação deste projeto ou caso trenha alguma ideia de implementação e complementação do projeto, entre em contato comigo! Segue o meu Slack: **mateus.pereira**.
-
-## CONSLUSÃO
-Após seguir o passo a passo descrito neste documento, você já será capaz de rodar de forma automática o autoCheckin em seu computador. Caso você tenha complicações na instalação deste projeto ou caso trenha alguma ideia de implementação e complementação do projeto, entre em contato comigo! Segue o meu Slack: **mateus.pereira**.
