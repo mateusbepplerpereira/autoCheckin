@@ -50,7 +50,7 @@ Agora que o ambiente já está configurado, vamos adicionar o arquivo "autoCheck
 %appdata%\Microsoft\windows\start menu\programs\startup
 
 ```
-Após isso copie o arquivo "autoCheckin - Atalho.lnk" deste repositório no diretório aberto.
+Após isso copie o arquivo "autoCheckin - Atalho.lnk" deste repositório e cole no diretório aberto.
 
 ## CONCLUSÃO
 Após seguir o passo a passo descrito neste documento, você já será capaz de rodar de forma automática o autoCheckin em seu computador. Caso você tenha complicações na instalação deste projeto ou caso tenha alguma ideia de complementação do projeto, entre em contato comigo! Segue o meu Slack: **mateus.pereira**.
