@@ -8,7 +8,7 @@ O presente projeto não possui nenhum fim ílicito, o autoCheckin possui apenas 
 O primeiro passo é clonar este repositório na sua máquina:
 
 
-**Caso você estiver com dificuldades para clonar este repositório, também é possível realizar a instalação manual dele, acessando as tags do projeto e instalar o source_code, caso você opte por esta instalação manual você tera a limitação de atualização, caso existam futuras atualizações, você precisará reinsatalar manualmente o projeto (Isso só se aplica a instalação manual, clonando o repositório com um git pull, você puxa as novas atualizações)**
+**Caso você estiver com dificuldades para clonar este repositório, também é possível realizar a instalação manual dele, acessando as tags do projeto e instalar o source_code, caso você opte por esta instalação manual você tera a limitação de atualização, caso existam futuras atualizações você precisará reinsatalar manualmente o projeto (Isso só se aplica a instalação manual, clonando o repositório, com um git pull você puxa as novas atualizações)**
 ```
 
 git clone https://github.com/mateusbepplerpereira/autoCheckin.git
