@@ -25,7 +25,7 @@ def startAutoCheckin(env):
     passwordInput.send_keys(password)
     passwordInput.send_keys(Keys.RETURN)
 
-    time.sleep(10)
+    time.sleep(15)
 
     checkinButton = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/header/ul/ul/li[1]/button').click()
     time.sleep(5)
@@ -37,7 +37,7 @@ def startAutoCheckin(env):
         time.sleep(10)
     except:
         # Retorno erros Adalove
-        message = "Erro ao realizar o checkin."
+        message = "Teste" #driver.find_elements(By.XPATH,"/html/body/div[5]/div[3]/div/div/div[2]/p/p")[0].text
         toaster.show_toast("Erro!", message, duration=10)
 
     driver.quit()

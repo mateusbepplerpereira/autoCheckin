@@ -16,8 +16,8 @@ def checkin():
 
 def timer():
     hr1 = "07:50"
-    hr2 = "12:27"
-    hr3 = "12:22"
+    hr2 = "09:50"
+    hr3 = "15:50"
     while True:
         if env_values['RUN'] == "True":
             timeNow = datetime.now().strftime("%H:%M")
