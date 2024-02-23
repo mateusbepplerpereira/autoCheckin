@@ -21,7 +21,9 @@ def timer():
     while True:
         if env_values['RUN'] == "True":
             timeNow = datetime.now().strftime("%H:%M")
-            if timeNow == hr1 or timeNow == hr2 or timeNow == hr3:
+            weekday = datetime.now().weekday()
+            days = [5,6]
+            if timeNow == hr1 and weekday not in days or timeNow == hr2 and weekday not in days or timeNow == hr3 and weekday not in days and weekday != 4:
                 checkin()
             else:
                 time.sleep(10)
