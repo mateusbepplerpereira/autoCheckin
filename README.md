@@ -1,6 +1,6 @@
 # AutoCheckin
 
-O presente projeto não possui nenhum fim ílicito, o autoCheckin possui apenas a finalidade de ser um lembrete para que as pessoas não esqueçam de realizar o checkin, de tal forma que não será necessário o uso de alarmes de sonoridade no meio dos periodos de estudo, além disso o autoCheckin possibilita que o checkin seja feito de forma automática em segundo plano, dessa forma economizando tempo que pode ser direcionado a outras tarefas, deixando claro que o checkin só consegue ser realizado dentro do câmpus, necessitando que você esteja conectado em uma das redes do mesmo.
+O presente projeto não possui nenhum fim ílicito, o autoCheckin possui apenas a finalidade de ser um lembrete para que as pessoas não esqueçam de realizar o checkin, de tal forma que não será necessário o uso de alarmes de sonoridade no meio dos periodos de estudo, além disso o autoCheckin possibilita que o checkin seja feito de forma automática em segundo plano, dessa forma economizando tempo que pode ser direcionado a outras tarefas, deixando claro que o checkin só consegue ser realizado dentro do campus, necessitando que você esteja conectado em uma das redes do mesmo.
 
 ## Guia de instalação
 
