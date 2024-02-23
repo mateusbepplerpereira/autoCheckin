@@ -23,8 +23,12 @@ pip install -r requirements.txt
 
 ```
 
-## 4. Configuração das variaveis de ambiente
-Abra o terminal na pasta raiz do projeto e cole este comando
+## 4. Instalação do FireFox
+Este projeto utiliza a biblioteca Selenium, essa biblioteca é responável pelo ambiente de simulação do navegador, para este projeto utilizei o geckodriver, simulador de ambiente do navegador FireFox, para que ele rode normalmente você deve realizar a instalação padrão do navegador FireFox. [Instalação do navegador FireFox](https://www.mozilla.org/pt-BR/firefox/download/thanks/)
+
+
+## 5. Configuração das variaveis de ambiente
+Abra o terminal na pasta raiz deste projeto e cole este comando
 ```
 
 cp config/.env.example config/.env
@@ -36,10 +40,10 @@ Dentro do arquivo .env você encontrará a variavel de ambiente "RUN", essa vár
 Dentro do arquivo .env você encontrará a váriavel de ambiente "EMAIL_ADALOVE", você deve colocar o seu e-mail de acesso da Adalove.
 #### PASSWORD_ADALOVE
 Dentro do arquivo .env você encontrará a váriavel de ambiente "PASSWORD_ADALOVE", você deve colocar a sua senha do acesso da Adalove.
-#### ***SEGURANÇA DE DADOS**
+### ***SEGURANÇA DE DADOS**
 Todos os dados que você escrever no arquivo .env ficarão salvos apenas na sua máquina, **os dados desse documento não serão vazados ou disponibilizados em nenhum local**.
 
-## 5. Adicionar o atalho na pasta de inicialização do windowns
+## 6. Adicionar o atalho na pasta de inicialização do windowns
 Agora que o ambiente já está configurado, vamos adicionar o arquivo "autoCheckin - Atalho.lnk" dentro da pasta de arquivos de inicialização do windowns para que o bot seja executado toda vez ao ligar a máquina. Pressione **"WINDOWS" + "R"** e cole o seguinte comando:
 ```
 
@@ -49,4 +53,4 @@ Agora que o ambiente já está configurado, vamos adicionar o arquivo "autoCheck
 Após isso copie o arquivo "autoCheckin - Atalho.lnk" deste repositório no diretório aberto.
 
 ## CONCLUSÃO
-Após seguir o passo a passo descrito neste documento, você já será capaz de rodar de forma automática o autoCheckin em seu computador. Caso você tenha complicações na instalação deste projeto ou caso trenha alguma ideia de implementação e complementação do projeto, entre em contato comigo! Segue o meu Slack: **mateus.pereira**.
+Após seguir o passo a passo descrito neste documento, você já será capaz de rodar de forma automática o autoCheckin em seu computador. Caso você tenha complicações na instalação deste projeto ou caso tenha alguma ideia de complementação do projeto, entre em contato comigo! Segue o meu Slack: **mateus.pereira**.
