@@ -45,6 +45,8 @@ Todos os dados que você escrever no arquivo .env ficarão salvos apenas na sua 
 
 ## 6. Adicionar o atalho na pasta de inicialização do windowns
 Agora que o ambiente já está configurado, vamos adicionar o arquivo "autoCheckin - Atalho.lnk" dentro da pasta de arquivos de inicialização do windowns para que o bot seja executado toda vez ao ligar a máquina. Pressione **"WINDOWS" + "R"** e cole o seguinte comando:
+
+
 **Existe a possibilidade de você não conseguir copiar e colar o comando inteiro! Caso não consiga digite o comando**
 ```
 
