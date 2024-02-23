@@ -7,7 +7,7 @@ from win10toast import ToastNotifier
 
 def startAutoCheckin(env):
     options = Options()
-    # options.add_argument("--headless")
+    options.add_argument("--headless")
 
     driver = webdriver.Firefox(options=options)
 
