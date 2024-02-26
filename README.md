@@ -26,6 +26,11 @@ pip install -r requirements.txt
 
 ```
 
+### 3.1 Erro: pip não é reconhecido como um comando interno
+Caso você caia neste caso de erro, siga o seguinte passo a passo do blog "Dicas de Programação". [Link do passo a passo](https://dicasdeprogramacao.com.br/resolvido-pip-nao-e-reconhecido-como-um-comando-interno/).
+
+O erro pip não é reconhecido como um comando interno é um erro que geralmente ocorre devido a configuração incorreta do pip, o passo a passo do blog "Dicas de Programação" está bem completo e estruturado, para uma melhor compreensão do erro.
+
 ## 4. Instalação do FireFox
 Este projeto utiliza a biblioteca Selenium, essa biblioteca é responável pelo ambiente de simulação do navegador, para este projeto utilizei o geckodriver, simulador de ambiente do navegador FireFox, para que ele rode normalmente você deve realizar a instalação padrão do navegador FireFox. [Instalação do navegador FireFox](https://www.mozilla.org/pt-BR/firefox/download/thanks/)
 
@@ -64,4 +69,6 @@ Após seguir o passo a passo descrito neste documento, você já será capaz de 
 ## Versões
 ### [v1.0.0 - 23/02/2024](https://github.com/mateusbepplerpereira/autoCheckin/releases/tag/v1.0.0)
 ### [v1.1.0 - 23/02/2024](https://github.com/mateusbepplerpereira/autoCheckin/releases/tag/v1.1.0)
+### [v1.1.1 - 26/02/2024](https://github.com/mateusbepplerpereira/autoCheckin/releases/tag/v1.1.1)
+
 
