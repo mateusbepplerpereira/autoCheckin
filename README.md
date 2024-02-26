@@ -21,7 +21,7 @@ No terminal, execute o seguinte comando para instalar as bibliotecas necessária
 pip install -r requirements.txt
 ```
 
-#### 3.1 Erro: pip não é reconhecido como um comando interno
+### 3.1 Erro: pip não é reconhecido como um comando interno
 Se encontrar esse erro, siga as instruções detalhadas no [passo a passo](https://dicasdeprogramacao.com.br/resolvido-pip-nao-e-reconhecido-como-um-comando-interno/) do blog "Dicas de Programação".
 
 ### 4. Instalação do Firefox
