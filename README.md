@@ -1,74 +1,61 @@
 # AutoCheckin
 
-O presente projeto não possui nenhum fim ílicito, o autoCheckin possui apenas a finalidade de ser um lembrete para que as pessoas não esqueçam de realizar o checkin, de tal forma que não será necessário o uso de alarmes de sonoridade no meio dos periodos de estudo, além disso o autoCheckin possibilita que o checkin seja feito de forma automática em segundo plano, dessa forma economizando tempo que pode ser direcionado a outras tarefas, deixando claro que o checkin só consegue ser realizado dentro do campus, necessitando que você esteja conectado em uma das redes do mesmo.
+O presente projeto tem como único propósito servir como um lembrete para que as pessoas não esqueçam de realizar o check-in durante seus períodos de estudo, o autoCheckin foi desenvolvido para eliminar a necessidade de alarmes sonoros intrusivos, permitindo, ainda, que o check-in seja feito automaticamente em segundo plano, vale ressaltar que o check-in só pode ser efetuado dentro do campus, sendo necessário estar conectado a uma das redes disponíveis.
 
-## Guia de instalação
+## Guia de Instalação
 
-### 1. Clonar o seguinte repositório
-O primeiro passo é clonar este repositório na sua máquina:
+### 1. Clonar o Repositório
+O primeiro passo consiste em clonar este repositório em sua máquina. Caso encontre dificuldades, é possível realizar a instalação manual, acessando as tags do projeto e instalando o source_code. No entanto, esta abordagem implica em limitações de atualização. Para evitar esse problema, é recomendável clonar o repositório, permitindo futuras atualizações através do comando `git pull`.
 
-
-**Caso você estiver com dificuldades para clonar este repositório, também é possível realizar a instalação manual dele, acessando as tags do projeto e instalar o source_code, caso você opte por esta instalação manual você tera a limitação de atualização, caso existam futuras atualizações você precisará reinsatalar manualmente o projeto (Isso só se aplica a instalação manual, clonando o repositório, com um git pull você puxa as novas atualizações)**
-```
-
+```bash
 git clone https://github.com/mateusbepplerpereira/autoCheckin.git
-
 ```
 
 ### 2. Instalação do Python
-Para o seguinte projeto é nessessário a instalação do Python 3.12.2 ou superior; pode ser instalado no seguinte link [Instalação do Python](https://www.python.org/downloads/)
+Certifique-se de ter o Python 3.12.2 ou uma versão superior instalada em sua máquina. Caso necessário, faça o download em [Instalação do Python](https://www.python.org/downloads/).
 
-### 3. Instalação das bibliotecas utilizadas pelo Python
-No terminal cole o seguinte comando:
-```
+### 3. Instalação das Bibliotecas Python
+No terminal, execute o seguinte comando para instalar as bibliotecas necessárias listadas no arquivo `requirements.txt`:
 
+```bash
 pip install -r requirements.txt
-
 ```
 
-### 3.1 Erro: pip não é reconhecido como um comando interno
-Caso você caia neste caso de erro, siga o seguinte passo a passo do blog "Dicas de Programação". [Link do passo a passo](https://dicasdeprogramacao.com.br/resolvido-pip-nao-e-reconhecido-como-um-comando-interno/).
+#### 3.1 Erro: pip não é reconhecido como um comando interno
+Se encontrar esse erro, siga as instruções detalhadas no [passo a passo](https://dicasdeprogramacao.com.br/resolvido-pip-nao-e-reconhecido-como-um-comando-interno/) do blog "Dicas de Programação".
 
-O erro pip não é reconhecido como um comando interno é um erro que geralmente ocorre devido a configuração incorreta do pip, o passo a passo do blog "Dicas de Programação" está bem completo e estruturado, para uma melhor compreensão do erro.
+### 4. Instalação do Firefox
+O projeto utiliza a biblioteca Selenium com o geckodriver para simulação do navegador Firefox. Certifique-se de realizar a instalação padrão do Firefox através do link [Instalação do navegador Firefox](https://www.mozilla.org/pt-BR/firefox/download/thanks/).
 
-## 4. Instalação do FireFox
-Este projeto utiliza a biblioteca Selenium, essa biblioteca é responável pelo ambiente de simulação do navegador, para este projeto utilizei o geckodriver, simulador de ambiente do navegador FireFox, para que ele rode normalmente você deve realizar a instalação padrão do navegador FireFox. [Instalação do navegador FireFox](https://www.mozilla.org/pt-BR/firefox/download/thanks/)
+### 5. Configuração das Variáveis de Ambiente
+No terminal, na pasta raiz do projeto, execute o comando:
 
-
-## 5. Configuração das variaveis de ambiente
-Abra o terminal na pasta raiz deste projeto e cole este comando
-```
-
+```bash
 cp config/.env.example config/.env
-
-```
-#### RUN
-Dentro do arquivo .env você encontrará a variavel de ambiente "RUN", essa váriavel controla o funcionamento do autoCheckin, caso você queira parar a execução do bot temporariamente deixe RUN="False", os valores permitidos são "True" e "False".
-#### EMAIL_ADALOVE
-Dentro do arquivo .env você encontrará a váriavel de ambiente "EMAIL_ADALOVE", você deve colocar o seu e-mail de acesso da Adalove.
-#### PASSWORD_ADALOVE
-Dentro do arquivo .env você encontrará a váriavel de ambiente "PASSWORD_ADALOVE", você deve colocar a sua senha do acesso da Adalove.
-### ***SEGURANÇA DE DADOS**
-Todos os dados que você escrever no arquivo .env ficarão salvos apenas na sua máquina, **os dados desse documento não serão vazados ou disponibilizados em nenhum local**.
-
-## 6. Adicionar o atalho na pasta de inicialização do windowns
-Agora que o ambiente já está configurado, vamos adicionar o arquivo "autoCheckin - Atalho.lnk" dentro da pasta de arquivos de inicialização do windowns para que o bot seja executado toda vez ao ligar a máquina. Pressione **"WINDOWS" + "R"** e cole o seguinte comando:
-
-
-**Existe a possibilidade de você não conseguir copiar e colar o comando inteiro! Caso não consiga digite o comando**
 ```
 
+Dentro do arquivo `.env`, configure as variáveis de ambiente conforme as instruções:
+
+- `RUN`: Controla o funcionamento do autoCheckin. Configure como "True" para ativação e "False" para desativação temporária.
+- `EMAIL_ADALOVE`: Insira o e-mail de acesso da Adalove.
+- `PASSWORD_ADALOVE`: Insira a senha de acesso da Adalove.
+
+### **Segurança de Dados**
+Os dados no arquivo .env ficam armazenados localmente, sem qualquer vazamento ou disponibilização externa.
+
+### 6. Adicionar Atalho na Pasta de Inicialização do Windows
+Adicione o arquivo "autoCheckin - Atalho.lnk" à pasta de inicialização do Windows para que o bot seja executado automaticamente ao ligar o computador. Pressione **"WINDOWS" + "R"** e cole o comando:
+
+```bash
 %appdata%\Microsoft\windows\start menu\programs\startup
-
 ```
-Após isso copie o arquivo "autoCheckin - Atalho.lnk" deste repositório e cole no diretório aberto.
 
-## CONCLUSÃO
-Após seguir o passo a passo descrito neste documento, você já será capaz de rodar de forma automática o autoCheckin em seu computador. Caso você tenha complicações na instalação deste projeto ou caso tenha alguma ideia de complementação do projeto, entre em contato comigo! Segue o meu Slack: **mateus.pereira**.
+Copie o arquivo "autoCheckin - Atalho.lnk" do repositório e cole no diretório aberto.
+
+## Conclusão
+Ao seguir este guia, você estará apto a executar o autoCheckin de forma automática em seu computador. Em caso de complicações na instalação ou sugestões de melhorias, entre em contato pelo Slack: **mateus.pereira**.
 
 ## Versões
-### [v1.0.0 - 23/02/2024](https://github.com/mateusbepplerpereira/autoCheckin/releases/tag/v1.0.0)
-### [v1.1.0 - 23/02/2024](https://github.com/mateusbepplerpereira/autoCheckin/releases/tag/v1.1.0)
-### [v1.1.1 - 26/02/2024](https://github.com/mateusbepplerpereira/autoCheckin/releases/tag/v1.1.1)
-
-
+- [v1.0.0 - 23/02/2024](https://github.com/mateusbepplerpereira/autoCheckin/releases/tag/v1.0.0)
+- [v1.1.0 - 23/02/2024](https://github.com/mateusbepplerpereira/autoCheckin/releases/tag/v1.1.0)
+- [v1.1.1 - 26/02/2024](https://github.com/mateusbepplerpereira/autoCheckin/releases/tag/v1.1.1)
