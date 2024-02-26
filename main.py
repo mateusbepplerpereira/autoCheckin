@@ -9,8 +9,7 @@ from autoCheckin import startAutoCheckin
 env_values = dotenv_values("./config/.env")
 
 def checkin():
-    resultado = messagebox.askquestion("Lembrete!", "Realizar Checkin. Deseja executar o bot?")
-    if resultado == 'yes':
+    if messagebox.askquestion("Lembrete!", "Realizar Checkin. Deseja executar o bot?") == 'yes':
         startAutoCheckin(env_values)
     time.sleep(5)
 
