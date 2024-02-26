@@ -37,8 +37,8 @@ def startAutoCheckin(env):
         time.sleep(10)
     except:
         # Retorno erros Adalove
-        message = "Teste" #driver.find_elements(By.XPATH,"/html/body/div[5]/div[3]/div/div/div[2]/p/p")[0].text
-        toaster.show_toast("Erro!", message, duration=10)
+        message = driver.find_elements(By.XPATH,"/html/body/div[5]/div[3]/div/div/div[2]/p/p")[0].text
+        toaster.show_toast("Erro ao realizar o checkin!", message, duration=10)
 
     driver.quit()
 

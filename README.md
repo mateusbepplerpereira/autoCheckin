@@ -62,4 +62,6 @@ Após isso copie o arquivo "autoCheckin - Atalho.lnk" deste repositório e cole 
 Após seguir o passo a passo descrito neste documento, você já será capaz de rodar de forma automática o autoCheckin em seu computador. Caso você tenha complicações na instalação deste projeto ou caso tenha alguma ideia de complementação do projeto, entre em contato comigo! Segue o meu Slack: **mateus.pereira**.
 
 ## Versões
-### [v1.0 - 23/02/2024](https://github.com/mateusbepplerpereira/autoCheckin/releases/tag/v1.0)
+### [v1.0.0 - 23/02/2024](https://github.com/mateusbepplerpereira/autoCheckin/releases/tag/v1.0.0)
+### [v1.1.0 - 23/02/2024](https://github.com/mateusbepplerpereira/autoCheckin/releases/tag/v1.1.0)
+
