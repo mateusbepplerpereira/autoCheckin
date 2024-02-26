@@ -2,6 +2,8 @@
 
 O presente projeto tem como único propósito servir como um lembrete para que as pessoas não esqueçam de realizar o check-in durante seus períodos de estudo, o autoCheckin foi desenvolvido para eliminar a necessidade de alarmes sonoros intrusivos, permitindo, ainda, que o check-in seja feito automaticamente em segundo plano, vale ressaltar que o check-in só pode ser efetuado dentro do campus, sendo necessário estar conectado a uma das redes disponíveis.
 
+**O autoCheckin só funcionará enquanto o computador estiver ligado!**
+
 ## Guia de Instalação
 
 ### 1. Clonar o Repositório
